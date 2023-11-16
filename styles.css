@@ -8,20 +8,22 @@ body{
 }
 .book{
 	padding-inline:20px;
+	margin-top:20px;
 }
 .book h2{
 	text-align:left;
 }
-.book p{
+.book > p{
 	color:#777777;
 	text-align:left;
+	
 	
 }
 
 .price{
 	background-color:#2ecc71;
 	color:white !important;
-	padding:5px;
+	padding:1px;
 	border-radius:5px;
 	text-align:center !important;
 }
